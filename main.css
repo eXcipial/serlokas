@@ -33,4 +33,13 @@ a {
     text-decoration-line: none; 
     margin-left: 23%;   
 }
-
+p {
+    color: grey; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin-bottom: 30px; 
+}
+main > div:nth-child(2) > p:nth-child(2) {
+    font-size: 25px; 
+    color: #666A85; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
