@@ -1,22 +1,22 @@
 body {
     background-color: #EAEBED;}
 main {
-    width: 100%; 
-    display: inline-block;}
+    width: 1500px; 
+    display: inline-block;
+    margin-left: calc((100% - 1500px) / 2);
+    margin-top: 200px;}
 div {
     float: left;}
 main > div:nth-child(1) {
-    margin-left: 38%; 
-    margin-right: 5%; 
+    margin-left: calc((1500px - 350px - 150px - 310px) / 2); 
     margin-top: 11%; 
     margin-bottom: 10%; 
-    width: 10%;}
-main > div:nth-child(2) {
-    margin-right: 5%; 
-    margin-left: 0%; 
+    width: 350px;}
+main > div:nth-child(2) { 
+    margin-left: 150px; 
     margin-top: 12%; 
     margin-bottom: 10%; 
-    width: 9%;
+    width: 310px;
 }
 h1 {
     font-size: 100px; 
