@@ -31,8 +31,8 @@ a {
     padding: 10px 20px; 
     background-color: #6A6F8C; 
     text-decoration-line: none; 
-    margin-left: 23%;   
-}
+    margin-left: 23%;
+    width: 150px;}
 p {
     color: grey; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
