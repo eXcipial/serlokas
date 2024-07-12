@@ -1,0 +1,36 @@
+body {
+    background-color: #EAEBED;}
+main {
+    width: 100%; 
+    display: inline-block;}
+div {
+    float: left;}
+main > div:nth-child(1) {
+    margin-left: 38%; 
+    margin-right: 5%; 
+    margin-top: 11%; 
+    margin-bottom: 10%; 
+    width: 10%;}
+main > div:nth-child(2) {
+    margin-right: 5%; 
+    margin-left: 0%; 
+    margin-top: 12%; 
+    margin-bottom: 10%; 
+    width: 9%;
+}
+h1 {
+    font-size: 100px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: #353F48;
+    margin: 0%;
+}
+a {
+    border-style: solid; 
+    border-color: #6A6F8C; 
+    color: white; 
+    padding: 10px 20px; 
+    background-color: #6A6F8C; 
+    text-decoration-line: none; 
+    margin-left: 23%;   
+}
+
